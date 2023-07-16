@@ -3,7 +3,7 @@
 ![question](question.jpg)
 
 ## Solution
-總共可以喝15瓶啤酒, 剩下3個瓶蓋及1個空瓶
+總共可以喝15瓶啤酒, 剩下3個瓶蓋及1個空瓶。
 
 [streamlit app](https://beer-calculator.streamlit.app/)
 
