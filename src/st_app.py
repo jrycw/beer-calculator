@@ -74,7 +74,7 @@ async def main():
     with st.form('beer-exchange-form'):
         money = st.slider('Money: ', min_value=0, value=10, step=1)
         unit_beer_price = st.slider('啤酒每瓶售價: ', min_value=1, value=2)
-        cap_to_beer_ratio = st.slider('幾個瓶蓋換一瓶啤酒: ', min_value=2, value=4)
+        cap_to_beer_ratio = st.slider('幾個瓶蓋換一瓶啤酒: ', min_value=3, value=4)
         bottle_to_beer_ratio = st.slider('幾個空瓶換一瓶啤酒: ', min_value=2, value=2)
         submitted = st.form_submit_button('計算')
         if submitted:
