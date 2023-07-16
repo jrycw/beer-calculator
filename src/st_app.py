@@ -84,7 +84,7 @@ async def main():
                                 bottle_to_beer_ratio=bottle_to_beer_ratio)
             await bc.exchange()
             st.write(
-                f'總共可以喝{bc.total_bottles}瓶啤酒, 剩下{bc.caps}個瓶蓋及{bc.bottles}個空瓶')
+                f'總共可以喝{bc.total_bottles}瓶啤酒, 剩下{bc.caps}個瓶蓋及{bc.bottles}個空瓶。')
 
 
 if __name__ == '__main__':
